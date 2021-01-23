@@ -9,14 +9,16 @@ import {View, StyleSheet} from 'react-native';
 //import Botao from './components/botao';
 //import Contador from './components/contador';
 //import Pai from './components/direta/Pai'
-import Pai from './components/indireta/Pai'
+//import Pai from './components/indireta/Pai'
+import ContadorV2 from './components/contador/ContadorV2'
 
 
 
 export default () => (
   <View style={style.App}>
-    <Pai />
+    <ContadorV2 />
     {/* 
+    <Pai />
     <Pai />
     <Contador inicial={100} passo={13}/>
     <Contador />
