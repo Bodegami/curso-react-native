@@ -6,13 +6,16 @@ import {View, StyleSheet} from 'react-native';
 // import CompPadrao, { Comp2, Comp3 } from './components/Multi';
 // import Primeiro from'./components/Primeiro';
 // import Titulo from './components/Titulo';
-import Botao from './components/botao';
+//import Botao from './components/botao';
+import Contador from './components/contador';
 
 export default () => (
   <View style={style.App}>
-    <Botao />
     
+    <Contador inicial={100} passo={13}/>
+    <Contador />
     {/* 
+    <Botao />
     <Titulo  principal="Cadastro Produto" secundario="Tela de Cadastro do Produto"/>
     <Aleatorio min={1} max={60}/>
     <Aleatorio min={1} max={60}/>
